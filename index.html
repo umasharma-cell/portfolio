@@ -7,17 +7,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" >
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav>
-    <div class="hamburger" id="hamburger">
-      <i class="fas fa-bars"></i>
-    </div>
-    <ul id="nav-links">
+  <div class="navbar-toggle" id="navbar-toggle">
+    <!-- Hamburger Icon -->
+    &#9776;
+</div>
+  <nav id="nav-links">
+    <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -28,6 +30,7 @@
 
   <!-- Home Section -->
   <section id="home" class="home-section">
+    <!-- Left side -->
     <div class="home-text">
       <h1>Portfolio</h1>
       <h2>Hello, I'm Uma Sharma</h2>
@@ -42,151 +45,166 @@
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
+      
     </div>
+
+
+
+    <!-- Right Image -->
     <div class="home-image">
       <img src="profile.jpg" alt="Atir Khan">
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="card about-card">
-      <h2>About Me</h2>
-      <p>Passionate Full Stack Developer with extensive expertise in the MERN stack, dedicated to building dynamic, scalable, and user-centric web applications. Skilled in both front-end and back-end development, with a strong commitment to writing clean, efficient code and optimizing performance. Driven by a love for problem-solving and innovation, I thrive on delivering seamless functionality and exceptional user experiences. Continuously learning and staying ahead of the curve to leverage the latest technologies in impactful ways.</p>
-    </div>
-    <div class="card education-card">
-      <h2>Education Details</h2>
-      <ul>
-        <li>Bachelor's in Computer Applications (2021-2024)</li>
-        <li>Completed an intensive 6-7 months Web Development course at Masai School, gaining hands-on experience in HTML, CSS, JavaScript, React and MongoDB, along with a strong focus on Data Structures and Algorithms and real-world project development.</li>
-      </ul>
-      <a href="asset/Resume.pdf" download="Uma_Sharma_Resume.pdf" class="resume-button"> Resume</a>
-    </div>
-  </section>
 
-  <section id="skills">
-    <div class="skills-section">
-      <h1>Skills</h1>
-      <div class="skills-container">
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
-          <p>HTML5</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
-          <p>CSS3</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-          <p>JavaScript</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
-          <p>React</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
-          <p>MongoDB</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-          <p>Git</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="NPM">
-          <p>NPM</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase">
-          <p>Firebase</p>
-        </div>
+ <!-- About Section -->
+<section id="about" class="about-section">
+  <div class="card about-card">
+    <h2>About Me</h2>
+    <p>Passionate Full Stack Developer with extensive expertise in the MERN stack, dedicated to building dynamic, scalable, and user-centric web applications. Skilled in both front-end and back-end development, with a strong commitment to writing clean, efficient code and optimizing performance. Driven by a love for problem-solving and innovation, I thrive on delivering seamless functionality and exceptional user experiences. Continuously learning and staying ahead of the curve to leverage the latest technologies in impactful ways.</p>
+  </div>
+
+  <div class="card education-card">
+    <h2>Education Details</h2>
+    <ul>
+      <li>Bachelor's in Computer Applications (2021-2024)</li>
+      <li>Completed an intensive 6-7 months Web Development course at Masai School, gaining hands-on experience in HTML, CSS, JavaScript, React and MongoDB, along with a strong focus on Data Structures and Algorithms and real-world project development.</li>
+      
+    </ul>
+    <a href="asset/Resume.pdf" download="Uma_Sharma_Resume.pdf" class="resume-button"> Resume</a>
+  </div>
+</section>
+<section id="skills">
+<div class="skills-section">
+  <h1>Skills</h1>
+  <div class="skills-container">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+      <p>HTML5</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+      <p>CSS3</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+      <p>React</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+      <p>MongoDB</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+      <p>Git</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="NPM">
+      <p>NPM</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase">
+      <p>Firebase</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section  id="projects"   class="projects-section">
+  <h1 class="projects-heading">Projects</h1>
+  <div class="projects-container">
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <img src="Food.png" alt="food" class="project-image">
+      <h2 class="project-title">Foods Point</h2>
+      <p class="project-description">
+        Foods Point is a React-based food catalog application that provides detailed nutritional information for a variety of dishes, categorized into Veg, Non-Veg, and Desserts. Each food item is linked to a unique QR code, allowing users to access real-time nutritional details, including calorie counts and nutrients. The app features a user-friendly interface with filtering and search options.
+      </p>
+      <div class="project-buttons">
+        <a href="https://github.com/umasharma-cell/Foods-Point" target="_blank" class="btn code-btn">Code</a>
+        <a href="https://foods-point.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
       </div>
     </div>
-  </section>
-
-  <section id="projects" class="projects-section">
-    <h1 class="projects-heading">Projects</h1>
-    <div class="projects-container">
-      <div class="project-card">
-        <img src="Food.png" alt="food" class="project-image">
-        <h2 class="project-title">Foods Point</h2>
-        <p class="project-description">
-          Foods Point is a React-based food catalog application that provides detailed nutritional information for a variety of dishes, categorized into Veg, Non-Veg, and Desserts. Each food item is linked to a unique QR code, allowing users to access real-time nutritional details, including calorie counts and nutrients. The app features a user-friendly interface with filtering and search options.
-        </p>
-        <div class="project-buttons">
-          <a href="https://github.com/umasharma-cell/Foods-Point" target="_blank" class="btn code-btn">Code</a>
-          <a href="https://foods-point.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="unimart.png" alt="Reebok Clone" class="project-image">
-        <h2 class="project-title">Unimart</h2>
-        <p class="project-description">
-          UniMart is a web application inspired by eBay, designed for seamless online shopping. Built using HTML, CSS, and JavaScript, it features a product listing page, a detailed product description page, and a checkout page. Users can easily add or decrease item quantities in their cart, ensuring a smooth and customizable shopping experience. 
-        </p>
-        <div class="project-buttons">
-          <a href="https://github.com/Ego-TheCelestial/B41_Project" target="_blank" class="btn code-btn">Code</a>
-          <a href="https://uni-mart.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="ShopX.png" alt="Tech Time Machine" class="project-image">
-        <h2 class="project-title">ShopX Ecommerce</h2>
-        <p class="project-description">
-          E-Commerce Hub is a React-based e-commerce website that dynamically displays products by fetching and mapping data from an API. With a clean and responsive design, it provides users with a seamless browsing experience, showcasing product details in a simple and efficient manner.
-        </p>
-        <div class="project-buttons">
-          <a href="https://github.com/umasharma-cell/Ecommerce" target="_blank" class="btn code-btn">Code</a>
-          <a href="https://shopxss.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
-        </div>
+    
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <img src="unimart.png" alt="Reebok Clone" class="project-image">
+      <h2 class="project-title">Unimart</h2>
+      <p class="project-description">
+        UniMart is a web application inspired by eBay, designed for seamless online shopping. Built using HTML, CSS, and JavaScript, it features a product listing page, a detailed product description page, and a checkout page. Users can easily add or decrease item quantities in their cart, ensuring a smooth and customizable shopping experience. 
+      </p>
+      <div class="project-buttons">
+        <a href="https://github.com/Ego-TheCelestial/B41_Project" target="_blank" class="btn code-btn">Code</a>
+        <a href="https://uni-mart.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
       </div>
     </div>
-  </section>
 
-  <section id="contact" class="contact-section">
-    <div class="contact-container">
-      <div class="contact-info">
-        <h1>Contact Me</h1>
-        <div class="info-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <div>
-            <h3>Location</h3>
-            <p>Noida Uttar Pradesh, India</p>
-          </div>
-        </div>
-        <div class="info-item">
-          <i class="fas fa-envelope"></i>
-          <div>
-            <h3>Email</h3>
-            <p>umas70204@gmail.com</p>
-          </div>
-        </div>
-        <div class="info-item">
-          <i class="fas fa-phone"></i>
-          <div>
-            <h3>Phone</h3>
-            <p>+91 8130257431</p>
-          </div>
-        </div>
-        <div class="social-icons">
-          <a href="https://github.com/umasharma-cell" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/uma-sharma82/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-      <div class="contact-image">
-        <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3241579/settings_images/S745ild0SAeQsDlqzsRQ_contactus.jpg" height="200px" alt="Contact Image">
+    <!-- Project Card 3 -->
+    <div class="project-card">
+      <img src="ShopX.png" alt="Tech Time Machine" class="project-image">
+      <h2 class="project-title">ShopX Ecommerce</h2>
+      <p class="project-description">
+        E-Commerce Hub is a React-based e-commerce website that dynamically displays products by fetching and mapping data from an API. With a clean and responsive design, it provides users with a seamless browsing experience, showcasing product details in a simple and efficient manner.
+      </p>
+      <div class="project-buttons">
+        <a href="https://github.com/umasharma-cell/Ecommerce" target="_blank" class="btn code-btn">Code</a>
+        <a href="https://shopxss.netlify.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
       </div>
     </div>
-  </section>
-  
-  <script src="index.js"></script>
-  <script>
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
+  </div>
+</section>
 
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-    });
+<section id="contact"  class="contact-section">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h1>Contact Me</h1>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h3>Location</h3>
+          <p>Noida Uttar Pradesh, India</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>Email</h3>
+          <p>umas70204@gmail.com</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <div>
+          <h3>Phone</h3>
+          <p>+91 8130257431</p>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/umasharma-cell" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/uma-sharma82/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="contact-image">
+      <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3241579/settings_images/S745ild0SAeQsDlqzsRQ_contactus.jpg" height="200px" alt="Contact Image">
+    </div>
+  </div>
+</section>
+
+
+
+
+  <script src="index.js">
+
+const toggleButton = document.getElementById('navbar-toggle');
+        const navbarLinks = document.getElementById('nav-links');
+        
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
   </script>
 </body>
-</html>
+</html> 
