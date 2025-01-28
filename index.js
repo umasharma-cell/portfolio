@@ -43,11 +43,11 @@ navLinks.forEach((link) => {
 
 function viewAndDownload() {
   // View the resume in a new tab
-  window.open('https://drive.google.com/file/d/1yLypm4pEQPWqtqF-_FBptWXEe_1qCHre/view?usp=sharing', '_blank');
+  window.open('https://drive.google.com/file/d/1OYJ3fDDklJKpS1-rdXu8W-oDYQUefoYb/view?usp=sharing', '_blank');
 
   // Download the resume
   var link = document.createElement('a');
-  link.href = 'https://drive.google.com/uc?export=download&id=1yLypm4pEQPWqtqF-_FBptWXEe_1qCHre';
+  link.href = 'https://drive.google.com/uc?export=download&id=1OYJ3fDDklJKpS1-rdXu8W-oDYQUefoYb';
   link.download = 'Uma_Sharma_Resume.pdf'; // You can specify the filename here
   link.click();
 }
