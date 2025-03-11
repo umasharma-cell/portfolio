@@ -43,7 +43,7 @@ navLinks.forEach((link) => {
 
 function viewAndDownload() {
   // View the resume in a new tab
-  window.open('https://drive.google.com/file/d/1NCrGfVoyIjjJ9ebOORIExQnxIKfABvd-/view?usp=sharing', '_blank');
+  window.open('https://drive.google.com/file/d/1qjHWO_4EcRTwRRDyvgU3c1oTb9XIaMJc/view?usp=sharing', '_blank');
 
   // Download the resume
   var link = document.createElement('a');
